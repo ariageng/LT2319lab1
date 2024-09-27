@@ -1,0 +1,2375 @@
+
+ DEV  v2.0.5 /Users/tianyigeng/Downloads/MLT2023/LT2319/assignment1/sisu
+
+stdout | test/dme.test.ts
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU integrate_usr_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'answer', content: [Object] } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'answer', content: [Object] } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+generating moves [
+  {
+    type: 'answer',
+    content: { predicate: 'favorite_food', argument: 'pizza' }
+  }
+]
+generated utterance: Pizza.
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'Which course?'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU integrate_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU downdate_qud] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [],
+    com: [ [Object] ]
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU integrate_usr_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU find_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'booking_course' }
+  }
+]
+generated utterance: Which course?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'Which day?'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[ISU integrate_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU downdate_qud] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU remove_findout] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'course_day_room' }
+  }
+]
+generated utterance: Which day?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'The lecture is in G212.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'course_day_room' }
+  }
+]
+generated utterance: Which day?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'I don\'t know.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'I don\'t know.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [], speaker: 'usr' }, qud: [], com: [] }
+}
+generating moves []
+generated utterance: 
+
+ ❯ test/dme.test.ts  (13 tests | 2 failed) 5041ms
+   × DME tests > system answer from database > 'sys'> 'The lecture is in G212.'
+     → expected [ { speaker: 'sys', …(1) }, …(6) ] to deeply equal [ { speaker: 'sys', …(1) }, …(6) ]
+   × DME tests > system answer from database > 'sys'> 'I don\'t know.'
+     → expected [ { speaker: 'sys', …(1) }, …(2) ] to deeply equal [ { speaker: 'sys', …(1) }, …(2) ]
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 11 passed (13)
+   Start at  15:01:43
+   Duration  5.64s (transform 156ms, setup 0ms, collect 215ms, tests 5.04s, environment 0ms, prepare 101ms)
+
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+c[3J
+ RERUN  src/nlug.ts x1
+
+stdout | test/dme.test.ts
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+[ISU select_other] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'greet', content: null } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: undefined, qud: [], com: [] }
+}
+generating moves [ { type: 'greet', content: null } ]
+generated utterance: Hello! You can ask me anything!
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU integrate_greet] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'sys' }, qud: [], com: [] }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from beliefs > 'sys'> 'Pizza.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU integrate_usr_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'answer', content: [Object] } ],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'answer', content: [Object] } ],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+generating moves [
+  {
+    type: 'answer',
+    content: { predicate: 'favorite_food', argument: 'pizza' }
+  }
+]
+generated utterance: Pizza.
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'Which course?'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU integrate_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU downdate_qud] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [],
+    com: [ [Object] ]
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [Array], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU integrate_usr_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [ [Object] ], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU find_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'booking_course' }
+  }
+]
+generated utterance: Which course?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'Which day?'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: []
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: []
+  }
+}
+[ISU integrate_answer] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU downdate_qud] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object], [Object] ],
+    agenda: [],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU remove_findout] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'usr' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'course_day_room' }
+  }
+]
+generated utterance: Which day?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'The lecture is in G212.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_from_plan] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU select_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: {
+    plan: [ [Object], [Object] ],
+    agenda: [ [Object] ],
+    bel: [ [Object] ]
+  },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [ { type: 'ask', content: [Object] } ],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [], speaker: 'usr' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+generating moves [
+  {
+    type: 'ask',
+    content: { type: 'whq', predicate: 'course_day_room' }
+  }
+]
+generated utterance: Which day?
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'I don\'t know.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'sys', moves: [ [Object] ] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU integrate_sys_ask] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [ [Object], [Object] ], agenda: [], bel: [ [Object] ] },
+  shared: {
+    lu: { moves: [Array], speaker: 'sys' },
+    qud: [ [Object], [Object], [Object] ],
+    com: [ [Object] ]
+  }
+}
+
+stdout | test/dme.test.ts > DME tests > system answer from database > 'sys'> 'I don\'t know.'
+[DM updateLatestMoves] { type: 'SAYS', value: { speaker: 'usr', moves: [] } }
+[ISU get_latest_move] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [], speaker: 'usr' }, qud: [], com: [] }
+}
+[ISU clear_agenda] {
+  domain: {
+    predicates: {
+      favorite_food: 'food',
+      booking_course: 'course',
+      course_day_room: 'room'
+    },
+    individuals: { pizza: 'food', LT2319: 'course', G212: 'room', J440: 'room' },
+    relevant: [Function: relevant],
+    resolves: [Function: resolves],
+    combine: [Function: combine],
+    plans: [ [Object] ]
+  },
+  database: { consultDB: [Function: consultDB] },
+  next_moves: [],
+  private: { plan: [], agenda: [], bel: [ [Object] ] },
+  shared: { lu: { moves: [], speaker: 'usr' }, qud: [], com: [] }
+}
+generating moves []
+generated utterance: 
+
+ ❯ test/dme.test.ts  (13 tests | 2 failed) 5083ms
+   × DME tests > system answer from database > 'sys'> 'The lecture is in G212.'
+     → expected [ { speaker: 'sys', …(1) }, …(6) ] to deeply equal [ { speaker: 'sys', …(1) }, …(6) ]
+   × DME tests > system answer from database > 'sys'> 'I don\'t know.'
+     → expected [ { speaker: 'sys', …(1) }, …(2) ] to deeply equal [ { speaker: 'sys', …(1) }, …(2) ]
+
+ Test Files  1 failed (1)
+      Tests  2 failed | 11 passed (13)
+   Start at  12:50:08
+   Duration  5.22s
+
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
+       rerun x1
+[2K[1A[2K[GCancelling test run. Press CTRL+c again to exit forcefully.
+
