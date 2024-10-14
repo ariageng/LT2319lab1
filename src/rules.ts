@@ -281,7 +281,7 @@ export const rules: Rules = {
     if (
       is.private.agenda.length === 0 &&
       is.private.plan.length === 0 &&
-      is.shared.qud[0]
+      is.shared.qud[0] 
     ) {
       const topQUD = is.shared.qud[0];
       for (const bel of is.private.bel) {
@@ -332,12 +332,20 @@ export const rules: Rules = {
 
   // 这个是用来处理dontunderstand的
   select_dont_understand: ({ is }) => {
-    if (Array.isArray(is.shared.lu?.moves)&& is.shared.lu.moves.length == 0) {
+    // 如果没有找到任何的move，就返回dontunderstand；如果用户之前有进展，就返回dontunderstand，并再次询问用户
+    if (Array.isArray(is.shared.lu?.moves)&& is.shared.lu.moves.length == 0&& is.shared.qud.length == 0) {
       const dontunderstand = {type: "dontunderstand", content: null }
       return () => ({
         ...is,
         next_moves: [...is.next_moves, dontunderstand as Move],
       });
+    } else if (Array.isArray(is.shared.lu?.moves) && is.shared.lu.moves.length == 0&& is.shared.qud.length > 0) {
+      const dontunderstand = {type: "dontunderstand", content: null }
+      const ask = {type: "ask", content: is.shared.qud[0] }
+      return () => ({
+        ...is,
+        next_moves: [...is.next_moves, dontunderstand as Move, ask as Move],
+      }); //
     }
   },
 };
