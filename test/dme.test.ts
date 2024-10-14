@@ -159,6 +159,10 @@ describe("DME tests", () => {
       { speaker: "sys", message: "Hello! You can ask me anything!" },
       { speaker: "usr", message: "What day is today?" },
       { speaker: "sys", message: "I don't understand." },
+      { speaker: "usr", message: "Where is the lecture?" },
+      { speaker: "sys", message: "Which course?" },
+      { speaker: "usr", message: "Bla bla." },
+      { speaker: "sys", message: "I don't understand. Which course?" },
     ]);
   });
 });
