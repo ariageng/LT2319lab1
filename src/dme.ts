@@ -85,10 +85,11 @@ export const dme = setup({
         },
         SelectMove: { 
           always: [
+            isuTransition("SelectionDone", "select_dont_understand"),
             isuTransition("SelectionDone", "select_ask"),
             isuTransition("SelectionDone", "select_answer"),
             isuTransition("SelectionDone", "select_other"),
-            isuTransition("SelectionDone", "select_dont_understand"),
+            
             { target: "SelectionDone" },
           ],
         },
